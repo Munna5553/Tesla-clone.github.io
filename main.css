@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    margin: 30px 40px;
+}
+
+.show-hide{
+    display: none;
+}
+
+.section-one{
+    background-image: url("./img/model\ s.jpg");
+    background-color: rgb(90, 117, 117);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-one-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+
+.nav-item-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item-link li{
+    margin: 0px 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.nav-item-link li a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.nav-item-link li:hover{
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgba(212, 212, 212, 0.4);
+}
+
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offcanvas-body a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 40px;
+    text-transform: capitalize;
+}
+
+
+.globe{
+    display: flex;
+    flex-direction: row;
+}
+
+.globe box-icon{
+    padding: 0px 3px;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.show-hide-a,.show-hide-b,.show-hide-m{
+    display: none;
+}
+
+.dropend .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 15em;
+    vertical-align: 0.255em;
+    content: "";
+}
+
+.car-model{
+    position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.car-model-subtitle{
+    margin: 10px 0px;
+}
+
+.car-model-subtitle a{
+    color: black;
+}
+
+.action-btn{
+    position: absolute;
+	top: 800%;
+	transform: translateX(-50%);
+	width: 100%;
+	font-weight: 500;
+    text-transform: uppercase;
+}
+
+.action-btn-1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    margin: 0px 50px;
+    background-color: #252830b2;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.action-btn-2{
+    text-decoration: none;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background-color: #ffffff8c;
+    margin: 0px 50px;
+    font-size: 14px;
+}
+
+.action-btn-2:hover{
+    color: currentColor;
+}
+
+.action-btn-1:hover{
+    color: white;
+}
+
+.action-btn-1-2:hover{
+    color: white;
+}
+
+.action-btn-2-2:hover{
+    color: currentColor;
+}
+
+.animated-toggle{
+    position: absolute;
+	top: 900%;
+	transform: translateX(-50%);
+    margin: 5px -10px;
+    font-size: 25px;
+}
+
+.section-two{
+    background-image: url("./img/model\ 3.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-three{    
+    background-image: url("./img/ModelX.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-four{    
+    background-image: url("./img/Model-Y.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-five{    
+    background-image: url("./img/SR-Design-D.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-six{    
+    background-image: url("./img/SolarPanels-D.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-seven{    
+    background-image: url("./img/Desktop-Accessories.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.car-model-2{
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+    padding: 180px 0px;
+}
+
+.action-btn2{
+    position: absolute;
+	font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 680px;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.action-btn-1-2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    margin: 0px 50px;
+    background-color: #252830b2;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.action-btn-2-2{
+    text-decoration: none;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background-color: #ffffff8c;
+    margin: 0px 50px;
+    font-size: 14px;
+}
+
+.quick-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.quick-link a{
+    font-size: 13px;
+    margin: 0px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+    
+    body{
+        width: 100%;
+    }
+    
+    .show-hide-nav{
+        display: none;
+    }
+
+    .show-hide{
+        display: inline-block;
+    }
+    
+    .show-hide-a,.show-hide-b,.show-hide-m{
+        display: inline;
+    }
+
+    .section-one,.section-two,.section-three,.section-four,.section-five,.section-six,.section-seven{
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-item-link li a{
+        padding: 8px 20px;
+        border-radius: 18px;
+        background-color: rgba(156, 156, 156, 0.2);
+    }
+
+    .section-one-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+    }
+
+}
+  
+
+@media screen and (max-width: 450px) {
+    
+    .section-one,.section-two,.section-three,.section-four,.section-five,.section-six,.section-seven{
+        height: 100VH;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav-item-link li{
+        margin: 0px -10px;
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: transparent;
+    }
+
+    .nav-item-link li a{
+        margin: 5px 10px;
+        padding: 8px 20px;
+        border-radius: 18px;
+        background-color: rgba(156, 156, 156, 0.2);
+    }
+
+    .action-btn{
+        top: 600%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 100%;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .action-btn a{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+
+    .action-btn-1{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 40px;
+        background-color: #252830b2;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    .action-btn-2{
+        text-decoration: none;
+        color: black;
+        padding: 10px 40px;
+        border-radius: 20px;
+        background-color: #ffffff8c;
+        font-size: 14px;
+    }
+
+    .animated-toggle{
+        position: absolute;
+        top: 680%;
+        transform: translateX(-50%);
+        margin: 85px 0px;
+        font-size: 25px;
+    }
+
+    .action-btn2{
+        position: absolute;
+        margin: 400px 0px;
+    }
+
+    .action-btn2 a{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+
+    .action-btn-1-2{
+        padding: 10px 50px;
+    }
+    
+    .action-btn-2-2{
+        padding: 10px 50px;
+    }
+    
+    .quick-link{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .quick-link a{
+        font-size: 13px;
+        margin: 5px 0px;
+    }
+
+}
+
+
+@media screen and (max-width:340px) {
+    
+    .section-one,.section-two,.section-three,.section-four,.section-five,.section-six,.section-seven{
+        height: 100vh;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section-one-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    
+    
+    .nav-item-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .nav-item-link li{
+        margin: 0px -15px;
+    }
+
+}
